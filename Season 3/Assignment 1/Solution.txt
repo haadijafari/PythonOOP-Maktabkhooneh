@@ -1,0 +1,2 @@
+For the quantity being accessable problem we can "encapsulate" the quantity variable.
+Since the encapsulated variable is no longer available, we can define a function to return the quantity as an integer value.
