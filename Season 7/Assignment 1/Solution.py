@@ -1,9 +1,10 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 import random
 from string import ascii_letters, digits
 
 
 class Password(ABC):
+    @abstractmethod
     def generate(self):
         pass
 
